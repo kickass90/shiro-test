@@ -28,14 +28,6 @@ import com.jet.dsm.pojo.SysParameterPojo;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-/**
- * Copyright 2016 济中节能 All rights reserved.
- * 
- * @ClassName: LoginController.java
- * @Author: LiLei
- * @CreateTime: 2016年12月2日 下午2:22:36
- * @Description: 获取系统参数
- */
 
 @Controller
 public class LoginController {
