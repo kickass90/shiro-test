@@ -150,6 +150,27 @@
 			<version>1.3.2</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.jet</groupId>
+			<artifactId>kettle-core</artifactId>
+			<version>5.1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jet</groupId>
+			<artifactId>kettle-db</artifactId>
+			<version>5.1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jet</groupId>
+			<artifactId>kettle-engine</artifactId>
+			<version>5.1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jet</groupId>
+			<artifactId>commons-vfs</artifactId>
+			<version>20100924</version>
+			<classifier>pentaho</classifier>
+		</dependency>
 		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jta-narayana</artifactId>
@@ -178,6 +199,17 @@
 			</snapshots>
 		</repository>
 		<repository>
+			<id>3rd party</id>
+			<name>thirdparty-repository</name>
+			<url>http://192.168.1.105:8081/nexus/content/repositories/thirdparty/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
 			<id>Apache</id>
 			<name>apache-repository</name>
 			<url>http://192.168.1.105:8081/nexus/content/repositories/apache-snapshots/</url>
@@ -194,6 +226,17 @@
 			<id>Central</id>
 			<name>central-repository</name>
 			<url>http://192.168.1.105:8081/nexus/content/repositories/central/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+		<pluginRepository>
+			<id>3rd party</id>
+			<name>thirdparty-repository</name>
+			<url>http://192.168.1.105:8081/nexus/content/repositories/thirdparty/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
