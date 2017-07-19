@@ -1,7 +1,5 @@
-package com.jet.dsm.observer;
+package com.jet.dsm.designpattern.observer;
 
-
-import java.util.List;
 
 /**
  * @Author: zhangkaifeng.

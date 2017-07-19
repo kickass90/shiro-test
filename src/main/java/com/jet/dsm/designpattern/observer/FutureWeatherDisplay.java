@@ -1,4 +1,4 @@
-package com.jet.dsm.observer;
+package com.jet.dsm.designpattern.observer;
 
 /**
  * @Author: zhangkaifeng.

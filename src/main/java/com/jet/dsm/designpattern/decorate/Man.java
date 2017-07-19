@@ -1,4 +1,4 @@
-package com.jet.dsm.decorate;
+package com.jet.dsm.designpattern.decorate;
 
 /**
  * @Author: zhangkaifeng.
